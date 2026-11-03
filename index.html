@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Akash F. Marabasannanavar — CSE Student & Builder</title>
+  <meta name="description" content="Portfolio of Akash F. Marabasannanavar, a Computer Science and Engineering student building AI and Arduino-based projects." />
+  <meta name="theme-color" content="#0e0e0c" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a href="#top" class="nav__logo" aria-label="Home">AM<span>.</span></a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact" class="nav__cta">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <p class="eyebrow reveal"><span class="dot"></span> Open to internships &amp; collaborations</p>
+      <h1 class="hero__title reveal">
+        Akash F.<br />
+        <em>Marabasannanavar</em>
+      </h1>
+      <p class="hero__sub reveal">
+        Computer Science &amp; Engineering student building practical technology —
+        from AI-powered road inspection to Arduino-based safety hardware.
+      </p>
+      <div class="hero__actions reveal">
+        <a class="btn btn--solid" href="#projects">View projects <span aria-hidden="true">→</span></a>
+        <a class="btn btn--ghost" href="#contact">Get in touch</a>
+      </div>
+      <p class="hero__meta reveal">
+        <span>Karnataka, India</span>
+        <span>B.E. CSE · KLE Tech</span>
+        <span>Portfolio 2026</span>
+      </p>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>C</span><span>C++</span><span>Java</span><span>DSA</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span><span>MongoDB</span><span>Arduino</span>
+        <span>C</span><span>C++</span><span>Java</span><span>DSA</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span><span>MongoDB</span><span>Arduino</span>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="section__label reveal"><span>01</span> About</div>
+      <div class="about">
+        <figure class="portrait reveal">
+          <!-- Put your photo at assets/photo.jpg -->
+          <img src="assets/photo.jpg" alt="Portrait of Akash" onerror="this.parentElement.classList.add('portrait--empty'); this.remove();" />
+          <span class="portrait__initials" aria-hidden="true">AM</span>
+          <figcaption>Akash · Haveri, Karnataka</figcaption>
+        </figure>
+        <div class="about__text reveal">
+          <p class="lead">
+            I'm a Computer Science and Engineering student who enjoys turning ideas into
+            <em>things that actually work</em> — software you can click and hardware you can hold.
+          </p>
+          <p>
+            My foundation is in programming and data structures, with hands-on experience in web
+            development and databases. I like projects where code meets the real world: detecting
+            potholes with AI, sorting waste with sensors, making riders safer with a smart helmet.
+          </p>
+          <p>
+            I'm looking to sharpen my skills, gain industry experience, and contribute to real-world
+            software projects.
+          </p>
+          <dl class="stats">
+            <div><dt>3</dt><dd>Projects built</dd></div>
+            <div><dt>3</dt><dd>Languages spoken</dd></div>
+            <div><dt>B.E.</dt><dd>Computer Science</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="section__label reveal"><span>02</span> Skills</div>
+      <div class="skills">
+        <article class="skill reveal">
+          <h3>Languages</h3>
+          <ul><li>C</li><li>C++</li><li>Java</li></ul>
+        </article>
+        <article class="skill reveal">
+          <h3>Core</h3>
+          <ul><li>Data Structures &amp; Algorithms</li><li>Web Development</li></ul>
+        </article>
+        <article class="skill reveal">
+          <h3>Web</h3>
+          <ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>PHP</li></ul>
+        </article>
+        <article class="skill reveal">
+          <h3>Databases</h3>
+          <ul><li>MySQL</li><li>MongoDB</li></ul>
+        </article>
+        <article class="skill reveal">
+          <h3>Hardware</h3>
+          <ul><li>Arduino</li></ul>
+        </article>
+        <article class="skill reveal">
+          <h3>Spoken</h3>
+          <ul><li>Kannada</li><li>English</li><li>Hindi</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="section__label reveal"><span>03</span> Selected work</div>
+      <ol class="projects">
+        <li class="project reveal">
+          <span class="project__num">01</span>
+          <div class="project__body">
+            <h3>AI-Based Road Pothole Detection &amp; Management System</h3>
+            <p>5th-semester mini project applying artificial intelligence to detect road potholes and help manage repairs.</p>
+            <ul class="tags"><li>AI</li><li>Computer Vision</li><li>Mini Project</li></ul>
+          </div>
+          <span class="status status--live"><i></i> Ongoing</span>
+        </li>
+        <li class="project reveal">
+          <span class="project__num">02</span>
+          <div class="project__body">
+            <h3>Waste Sorting System</h3>
+            <p>An Arduino-based system built to sort and manage waste automatically.</p>
+            <ul class="tags"><li>Arduino</li><li>Sensors</li><li>Embedded</li></ul>
+          </div>
+          <span class="status">Completed</span>
+        </li>
+        <li class="project reveal">
+          <span class="project__num">03</span>
+          <div class="project__body">
+            <h3>Smart Helmet System</h3>
+            <p>An Arduino-based smart helmet focused on improving rider safety.</p>
+            <ul class="tags"><li>Arduino</li><li>Safety</li><li>IoT</li></ul>
+          </div>
+          <span class="status">Completed</span>
+        </li>
+      </ol>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <div class="section__label reveal"><span>04</span> Education</div>
+      <div class="edu reveal">
+        <div>
+          <h3>Bachelor of Engineering — Computer Science &amp; Engineering</h3>
+          <p>KLE Institute of Technology, Hubballi, Karnataka</p>
+        </div>
+        <span class="status status--live"><i></i> In progress</span>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="section__label reveal"><span>05</span> Contact</div>
+      <h2 class="contact__title reveal">Let's build<br /><em>something together.</em></h2>
+      <a class="contact__mail reveal" href="mailto:your.email@example.com">your.email@example.com</a>
+      <ul class="contact__links reveal">
+        <li><a href="https://github.com/your-username" target="_blank" rel="noopener">GitHub ↗</a></li>
+        <li><a href="https://www.linkedin.com/in/your-username" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year">2026</span> Akash F. Marabasannanavar</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+</body>
+</html>
